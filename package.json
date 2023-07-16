@@ -1,0 +1,21 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "sebuah crud web server yang berisikan data-data buku yang merupakan submisi pada kelas backend dicoding",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "muhammadyulasfipahrizal",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.3.6"
+  }
+}
